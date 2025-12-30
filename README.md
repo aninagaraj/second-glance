@@ -62,12 +62,13 @@ The repository contains:
 
 ## Demo
 
-Check out one of the original "Second Glance" puzzles from The Washington Post that inspired this project:
-[Second Glance: Taco Time (April 8, 2021)](https://www.washingtonpost.com/magazine/2021/04/08/second-glance-taco-time-apr-11-2021/). I downloaded the full image (`taco.jpeg`) which also contains the solution. I used a custom Python program to "cut out" the original (`taco1.jpeg`) and altered image (`taco2.jpeg`) and ensured that their dimensions were identical. 
-
-Your eye will quickly catch the differences in the blinking view and the difference map will confirm and validate the differences.
+1. [Second Glance: Taco Time, April 8, 2021](https://www.washingtonpost.com/magazine/2021/04/08/second-glance-taco-time-apr-11-2021/). I downloaded the full image (`taco.jpeg`) which also contains the solution. I used a custom Python program to "cut out" the original (`taco1.jpeg`) and altered image (`taco2.jpeg`) and ensured that their dimensions were identical. Your eye will quickly catch the differences in the blinking view and the difference map will confirm and validate the differences.
 
 ![Spot the Difference Demo](images/taco.gif)
+
+2. [Second Glance: Nutcrackers, Dec. 27, 2020](https://www.washingtonpost.com/magazine/2020/12/24/second-glance-nutcrackers-dec-27-2020/).
+
+![Spot the Difference Demo](images/nut.gif)
 
 ## Tips
 
