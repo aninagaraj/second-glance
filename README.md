@@ -4,11 +4,11 @@ Years ago, the Washington Post's weekend magazine had a "Second Glance" puzzle w
 
 ## What This Does
 
-This project analyzes two images that look almost the same, but have subtle differences. It uses 2 different methods to help you find the changes in addition to the side-by-side view:
+It uses 2 different methods to help you find the changes in addition to the side-by-side view:
 
 1. **Side-by-side view** - Original and modified images next to each other
-2. **Blinking comparison** - Images that automatically switch back and forth. The human eye is remarkable good at spotting differences if they are subtle.
-3. **Difference map** - A programmatic view that highlights changes in red
+2. **Blinking comparison** - Images that automatically switch back and forth. The human eye is remarkably good at spotting differences if they are subtle and "moving".
+3. **Difference map** - A programmatic view that highlights changes in a high contrast color.
 
 ## How the Code Works
 
@@ -17,7 +17,7 @@ The heart of this tool is a p5.js sketch that:
 1. **Aligns the images** using a vertical offset (adjustable) to ensure the images are perfectly positioned for comparison.
 2. **Creates a blinking view** that switches between images every 45 frames (adjustable), creating a flipbook effect.
 3. **Analyzes pixel differences** between the two images and highlights significant changes in red. The difference detection works by comparing each pixel's RGB values. If the average difference exceeds a threshold (default: 30 out of 255), that pixel gets marked with a high contrast so that the differences are visible when presented over a blurred grayscale background of the original image.
-4. **Resizes images automatically** to fit within 700x700 pixels while maintaining aspect ratio
+4. **Resizes images automatically** to fit within `700 x 700` pixels while maintaining aspect ratio
 
 ## Getting Started
 
