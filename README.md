@@ -1,6 +1,6 @@
 # Spot the Difference with p5.js
 
-Years ago, the Washington Post's weekend magazine had a "Second Glance" puzzle where the reader had to identify 12 differences between a photo and its subtly altered version. I'd usually get 10-11 and then spend a lot of time agonizing over the last 1-2 differences or wait for a week for the solutions. This project uses some clever programming tricks to help spot what's changed (and probably takes the fun out of the puzzle as well).
+Years ago, the Washington Post's weekend magazine had a feature called "Second Glance". It was a "spot the difference" puzzle in which the reader had to identify 12 differences between a photo and its subtly altered version. I'd usually get 9-11 and then spend a lot of time agonizing over the last few differences and wait for a week for the solutions. This project uses some clever programming tricks to help spot what's changed and take the frustration (and most likely the fun) out of the puzzle.
 
 ## What This Does
 
