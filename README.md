@@ -1,6 +1,6 @@
 # Spot the Difference with p5.js
 
-Find subtle differences between nearly identical images using this interactive visual tool. Years ago, the Washington Post's weekend magazine had a "Second Glance" puzzle where the reader had to identify 12 differences between a photo and its subtly altered version. I'd usually get 10-11 and then spend a lot of time agonizing over the last 1-2 differences and then wait for a week for the solutions. This project uses some clever programming tricks to help spot what's changed (and probably takes the fun out of the puzzle as well).
+Find subtle differences between nearly identical images using this interactive visual tool. Years ago, the Washington Post's weekend magazine had a "Second Glance" puzzle where the reader had to identify 12 differences between a photo and its subtly altered version. I'd usually get 10-11 and then spend a lot of time agonizing over the last 1-2 differences or wait for a week for the solutions. This project uses some clever programming tricks to help spot what's changed (and probably takes the fun out of the puzzle as well).
 
 ## What This Does
 
@@ -29,7 +29,7 @@ The heart of this tool is a p5.js sketch that:
    img2 = loadImage('images/your-second-image.jpg');```
 3. Run index.html.
 
-## Tweak It to Your Liking
+## Tweak It
 
 ```javascript
 // Make it more or less sensitive to changes
@@ -63,7 +63,7 @@ The repository contains:
 ## Demo
 
 Check out one of the original "Second Glance" puzzles from The Washington Post that inspired this project:
-[Second Glance: Taco Time (April 8, 2021)](https://www.washingtonpost.com/magazine/2021/04/08/second-glance-taco-time-apr-11-2021/). I downloaded the full image (`taco.jpeg`) which also contains the solution. I used a different program to "cut out" the original (`taco1.jpeg`) and altered image (`taco2.jpeg`) and ensured that their dimensions were identical. 
+[Second Glance: Taco Time (April 8, 2021)](https://www.washingtonpost.com/magazine/2021/04/08/second-glance-taco-time-apr-11-2021/). I downloaded the full image (`taco.jpeg`) which also contains the solution. I used a custom Python program to "cut out" the original (`taco1.jpeg`) and altered image (`taco2.jpeg`) and ensured that their dimensions were identical. 
 
 Your eye will quickly catch the differences in the blinking view and the difference map will confirm and validate the differences.
 
