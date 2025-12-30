@@ -70,6 +70,10 @@ The repository contains:
 
 ![Spot the Difference Demo](images/nut.gif)
 
+3. [Second Glance: Junk drawer, Dec. 13, 2020](https://www.washingtonpost.com/magazine/2020/12/10/second-glance-junk-drawer-dec-13-2020/).
+
+![Spot the Difference Demo](images/junk.gif)
+
 ## Tips
 
 - The blinking view works best for finding larger, more obvious differences
