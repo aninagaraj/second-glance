@@ -16,7 +16,7 @@ The heart of this tool is a p5.js sketch that:
 
 1. **Aligns the images** using a vertical offset (adjustable) to ensure the images are perfectly positioned for comparison.
 2. **Creates a blinking view** that switches between images every 45 frames (adjustable), creating a flipbook effect.
-3. **Analyzes pixel differences** between the two images and highlights significant changes in red. The difference detection works by comparing each pixel's RGB values. If the average difference exceeds a threshold (default: 30 out of 255), that pixel gets marked with a high contrast so that the differences are visible when presented over a blurred grayscale background of the original image.
+3. **Analyzes pixel differences** between the two images and highlights significant changes in a high contrast color. The difference detection works by comparing each pixel's RGB values. If the average difference exceeds a threshold (default: 30 out of 255), that pixel gets marked with a high contrast so that the differences are visible when presented over a blurred grayscale background of the original image.
 4. **Resizes images automatically** to fit within `700 x 700` pixels while maintaining aspect ratio
 
 ## Getting Started
