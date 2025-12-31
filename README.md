@@ -73,6 +73,10 @@ The repository contains:
 
 ![Spot the Difference Demo](images/junk.gif)
 
+4. [Second Glance: Fishing lures, Feb. 6, 2022](https://www.washingtonpost.com/magazine/2022/01/27/second-glance-fishing-lures-feb-6-2022/).
+
+![Spot the Difference Demo](images/lures.gif)
+
 ## Tips
 
 - The blinking view works best for finding larger, more obvious differences
