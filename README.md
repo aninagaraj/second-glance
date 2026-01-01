@@ -6,7 +6,7 @@ Years ago, the Washington Post's weekend magazine had a feature called "Second G
 
 It uses 2 different methods to help you find the changes in addition to the side-by-side view:
 
-1. **Blinking comparison** - The oiginal and the altered images automatically switch back and forth. The human eye is remarkably good at spotting differences if they are subtle and "moving".
+1. **Blinking comparison** - The original and the altered images automatically switch back and forth. The human eye is remarkably good at spotting differences if they are subtle and "moving".
 2. **Difference map** - A programmatic view that highlights changes in a high contrast color.
 
 ## How the Code Works
