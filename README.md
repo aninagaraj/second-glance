@@ -1,12 +1,12 @@
 # Spot the Difference with p5.js
 
-Years ago, the Washington Post's weekend magazine had a feature called "Second Glance". It was a "spot the difference" puzzle in which the reader had to identify 12 differences between a photo and its subtly altered version. I'd usually get 9-11 and then spend a lot of time agonizing over the last few differences and wait for a week for the solutions. This project uses some clever programming tricks to help spot what's changed to take the frustration (and most likely the fun) out of the puzzle.
+Years ago, the Washington Post's weekend magazine had a feature called "Second Glance". The archives are [here](https://www.washingtonpost.com/lifestyle/magazine/second-glance/). It was a "spot the difference" puzzle in which the reader had to identify 12-13 differences between a photo and its subtly altered version. I'd usually get 9-11 and then spend a lot of time agonizing over the last few differences and waiting for a week for the solutions. This project uses some clever programming tricks to help spot the differences to take the frustration (and most likely the fun) out of the puzzle.
 
 ## What This Does
 
 It uses 2 different methods to help you find the changes in addition to the side-by-side view:
 
-1. **Blinking comparison** - Images that automatically switch back and forth. The human eye is remarkably good at spotting differences if they are subtle and "moving".
+1. **Blinking comparison** - The oiginal and the altered images automatically switch back and forth. The human eye is remarkably good at spotting differences if they are subtle and "moving".
 2. **Difference map** - A programmatic view that highlights changes in a high contrast color.
 
 ## How the Code Works
